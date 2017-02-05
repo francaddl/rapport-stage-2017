@@ -155,3 +155,12 @@
 	\newglossary[nlg]{notation}{not}{ntn}{Notation} 	% Création d'un type de glossaire 'notation'
 	\makeglossaries
 	\loadglsentries{Glossaire}							% Utilisation d'un fichier externe pour la définition des entrées (Glossaire.tex)				
+
+
+\usepackage{titlesec}
+\titleformat{\subsubsection}
+   {\normalfont\fontsize{12pt}{13pt}\selectfont\bfseries}% apparence commune au titre et au numéro
+   {\thesubsubsection}% apparence du numéro
+   {1em}% espacement numéro/texte
+   {}% apparence du titre
+   \renewcommand{\thesubsubsection}{\alph{subsubsection})}
