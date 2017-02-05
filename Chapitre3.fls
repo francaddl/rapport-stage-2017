@@ -1,9 +1,0 @@
-PWD /Users/franca/Documents/rapport-stage-2017
-INPUT /usr/local/texlive/2016/texmf.cnf
-INPUT /usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf
-INPUT /usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT Chapitre3.tex
-OUTPUT Chapitre3.log
-OUTPUT Chapitre3.pdf
-INPUT Chapitre3.bbl
-INPUT Chapitre3.bbl
