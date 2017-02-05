@@ -1,0 +1,16 @@
+# Fdb version 3
+["bibtex Chapitre3"] 1486285891 "Chapitre3.aux" "Chapitre3.bbl" "Chapitre3" 1486285892
+  "Chapitre3.aux" 1486285891 8 a94a2480d3289e625eea47cd1b285758 ""
+  "Chapitre3.bcf" 0 -1 0 ""
+  (generated)
+  "Chapitre3.bbl"
+["pdflatex"] 1486285892 "Chapitre3.tex" "Chapitre3.pdf" "Chapitre3" 1486285892
+  "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1463093894 31953 b9489e6e586f798610c60aec1f5ec548 ""
+  "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1486158428 3873396 853a56a8811b0a3148f5e2e41fa38625 ""
+  "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
+  "Chapitre3.aux" 1486285891 8 a94a2480d3289e625eea47cd1b285758 ""
+  "Chapitre3.bbl" 1486285892 0 d41d8cd98f00b204e9800998ecf8427e "bibtex Chapitre3"
+  "Chapitre3.tex" 1486285888 702 cbd26b36632b62c7a136f4ba64dd0e06 ""
+  (generated)
+  "Chapitre3.log"
+  "Chapitre3.pdf"

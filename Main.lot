@@ -1,14 +1,18 @@
 \select@language {french}
 \gdef \the@ipfilectr {@-1}
 \addvspace {10\p@ }
-\contentsline {xchapter}{Illustration des principales commandes}{1}{chapter.1}
-\contentsline {table}{\numberline {1.1}{\ignorespaces L\IeC {\'e}gende courte pour l'exemple de tableau}}{2}{table.caption.4}
+\contentsline {xchapter}{Exploration de l'entreprise}{1}{chapter.1}
+\contentsline {table}{\numberline {1.1}{\ignorespaces L\IeC {\'e}gende courte pour l'exemple de tableau}}{2}{table.caption.6}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-2}
 \addvspace {10\p@ }
-\contentsline {xchapter}{M\IeC {\'e}thodes exp\IeC {\'e}rimentales}{5}{chapter.2}
+\contentsline {xchapter}{La formation}{5}{chapter.2}
 \gdef \the@ipfilectr {}
 \gdef \the@ipfilectr {@-3}
+\addvspace {10\p@ }
+\contentsline {xchapter}{Illustration des principales commandes}{7}{chapter.3}
+\gdef \the@ipfilectr {}
+\gdef \the@ipfilectr {@-4}
 \addvspace {10\p@ }
 \contentsline {xchapter}{Annexes}{I}{appendix.A}
 \gdef \the@ipfilectr {}
