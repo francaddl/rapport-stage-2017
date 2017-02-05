@@ -1,0 +1,6 @@
+(indexentry :tkey (("alpha" "\\glossentry{alpha}") ) :locref "{}{2}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("gamma" "\\glossentry{gamma}") ) :locref "{}{2}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("alpha" "\\glossentry{alpha}") ) :locref "{}{2}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("gamma" "\\glossentry{gamma}") ) :locref "{}{2}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("alpha" "\\glossentry{alpha}") ) :locref "{}{I}" :attr "pageglsnumberformat" ) 
+(indexentry :tkey (("gamma" "\\glossentry{gamma}") ) :locref "{}{I}" :attr "pageglsnumberformat" ) 

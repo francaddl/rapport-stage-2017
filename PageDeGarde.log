@@ -1,0 +1,36 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2017.2.3)  5 FEB 2017 00:10
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**PageDeGarde.tex
+(./PageDeGarde.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+)
+Runaway argument?
+{ \newgeometry {top=2.5cm, bottom=2cm, left=2cm, right=1cm} \begin {t\ETC.
+! File ended while scanning use of \@argdef.
+<inserted text> 
+                \par 
+<*> PageDeGarde.tex
+                   
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
+
+! Emergency stop.
+<*> PageDeGarde.tex
+                   
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 21 strings out of 493014
+ 288 string characters out of 6133352
+ 53601 words of memory out of 5000000
+ 3664 multiletter control sequences out of 15000+600000
+ 3640 words of font info for 14 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 7i,0n,6p,86b,8s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
