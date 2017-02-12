@@ -158,9 +158,9 @@
 
 
 \usepackage{titlesec}
-\titleformat{\subsubsection}
-   {\normalfont\fontsize{12pt}{13pt}\selectfont\bfseries}% apparence commune au titre et au numéro
-   {\thesubsubsection}% apparence du numéro
-   {1em}% espacement numéro/texte
-   {}% apparence du titre
-   \renewcommand{\thesubsubsection}{\alph{subsubsection})}
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}

@@ -61,21 +61,23 @@
 	\pagedegarde
 	\cleardoublepage
 		% Table des matières
-			\setcounter{tocdepth}{1}	% Pas besoin de trop détailler le sommaire ici (chapitres/sections)
+			\setcounter{tocdepth}{2}	% Pas besoin de trop détailler le sommaire ici (chapitres/sections)
 			\dominitoc						% Génération des mini-toc	\pagenumbering{arabic}
 			\tableofcontents
 		% Liste des figures
-			\renewcommand*\listfigurename{Liste des figures}
-			\listoffigures
+			%\renewcommand*\listfigurename{Liste des figures}
+			%\listoffigures
 		% Liste des tableaux
-		\listoftables
+		%\listoftables
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
 %        Contenu du document        %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\setcounter{secnumdepth}{4}
 	\setcounter{mtc}{3}	% "Corrige" les minitocs décallés à cause des chapter* (ex : table des matières)
 	\pagenumbering{arabic}
-%	\includefrom{Introduction}
+	
+	\includefrom{Introduction/}{Introduction}
 	\includefrom{Chapitre1/}{Chapitre1}	 %Exploration de l'entreprise
 	\includefrom{Chapitre2/}{Chapitre2}  %Formation		
 	\includefrom{Chapitre3/}{Chapitre3}  %Int�r�t du stage 
@@ -88,9 +90,9 @@
 		\includefrom{Annexes/}{Annexes}				% Figures en annexe
 			
 		% Liste des acronymes, glossaire et liste des symboles (dans l'ordre)		
-		\printglossary[type=\acronymtype , title={Liste des acronymes}, toctitle={Liste des acronymes}]
-		\printglossary[title=Glossaire,toctitle=Glossaire]
-		\printglossary[type=notation,title={Liste des symboles}, toctitle={Liste des symboles}]
+		%\printglossary[type=\acronymtype , title={Liste des acronymes}, toctitle={Liste des acronymes}]
+		%\printglossary[title=Glossaire,toctitle=Glossaire]
+		%\printglossary[type=notation,title={Liste des symboles}, toctitle={Liste des symboles}]
 	
 	\end{appendix}
 
