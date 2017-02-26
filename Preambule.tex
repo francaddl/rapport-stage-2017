@@ -60,7 +60,7 @@
 \usepackage[font={small}]{caption}
 \usepackage[francais,nohints]{minitoc}		% Mini table des matières, en français
 	\setcounter{minitocdepth}{3}	% Mini-toc détaillées (sections/sous-sections)
-\usepackage[notbib]{tocbibind}		% Ajoute les Tables	des Matières/Figures/Tableaux à la table des matières
+%\usepackage[notbib]{tocbibind}		% Ajoute les Tables	des Matières/Figures/Tableaux à la table des matières
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -151,14 +151,14 @@
 %% Packages qui doivent être chargés APRES hyperref	             
 \usepackage[top=2.5cm, bottom=2cm, left=3cm, right=2.5cm,
 			headheight=15pt]{geometry}
-\usepackage[acronym,xindy,toc,numberedsection]{glossaries}
-	\newglossary[nlg]{notation}{not}{ntn}{Notation} 	% Création d'un type de glossaire 'notation'
-	\makeglossaries
-	\loadglsentries{Glossaire}							% Utilisation d'un fichier externe pour la définition des entrées (Glossaire.tex)				
+%\usepackage[acronym,xindy,toc,numberedsection]{glossaries}
+%	\newglossary[nlg]{notation}{not}{ntn}{Notation} 	% Création d'un type de glossaire 'notation'
+	%\makeglossaries
+%	\loadglsentries{Glossaire}							% Utilisation d'un fichier externe pour la définition des entrées (Glossaire.tex)				
 
 
 \usepackage{titlesec}
-\setcounter{secnumdepth}{4}
+\setcounter{secnumdepth}{3}
 
 \titleformat{\paragraph}
 {\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
