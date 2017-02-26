@@ -15,7 +15,8 @@ clean:
 	rm -f *.bbl *.blg
 	rm -f *.toc *.lof *.lot
 	rm -f *.thm *.out
-	rm -f *.ind *.idx *.ilg
+	rm -f *.mtc *.mtc*
+	
 	rm -f */*.aux */*.log */*.dvi */$(latexfile).ps */*.bak */$(latexfile).ps.gz */$(latexfile).ps.bz2
 	rm -f */*.bbl */*.blg
 	rm -f */*.toc */*.lof */*.lot
@@ -30,20 +31,14 @@ $(latexfile).aux : $(latexfile).tex
 # three lines after the rule.  Delete .bbl dependency if not using
 # BibTeX references.
 # idea from http://ctan.unsw.edu.au/help/uk-tex-faq/Makefile
-$(latexfile).pdf : $(latexfile).tex $(latexfile).bbl $(latexfile).blg $(latexfile).toc index
+$(latexfile).pdf : $(latexfile).tex $(latexfile).toc index
 	while ($(TEX) $(latexfile) ; \
 	grep -q "Rerun to get cross" $(latexfile).log ) do true ; \
 	done
  
 $(latexfile).toc $(latexfile).aux: $(latexfile).tex
 	$(TEX) $(latexfile)
- 
-$(latexfile).bbl  $(latexfile).blg: $(latexfile).aux
-	bibtex $(latexfile)
- 
-%.bbl: %.aux
-	bibtex $(basename $<)
- 
+   
 index : $(latexfile).ind
  
 $(latexfile).ind : $(latexfile).aux

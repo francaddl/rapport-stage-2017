@@ -28,6 +28,7 @@ Thumbs.db
 *.lot
 *.maf
 *.mtc
-*.mtc1
+*.mtc*
+Main.pdf
 *.out
 *.synctex.gz

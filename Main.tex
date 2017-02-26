@@ -57,6 +57,7 @@
 
 \begin{document}
 % Préambule
+	\makeindex
 	\pagenumbering{roman}
 	\pagedegarde
 	\cleardoublepage
@@ -73,8 +74,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%		
 %        Contenu du document        %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	\setcounter{secnumdepth}{4}
-	\setcounter{mtc}{3}	% "Corrige" les minitocs décallés à cause des chapter* (ex : table des matières)
+	%\setcounter{mtc}{3}	% "Corrige" les minitocs décallés à cause des chapter* (ex : table des matières)
 	\pagenumbering{arabic}
 	
 	\includefrom{Introduction/}{Introduction}
@@ -95,5 +95,6 @@
 		%\printglossary[type=notation,title={Liste des symboles}, toctitle={Liste des symboles}]
 	
 	%\end{appendix}
+	\printindex
 
 \end{document}
