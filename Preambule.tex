@@ -28,6 +28,7 @@
 %% Faux texte, juste pour la démo
 \usepackage{blindtext}
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %% Réglage des fontes et typo    
@@ -58,9 +59,13 @@
 \usepackage[section]{placeins}	% Place un FloatBarrier à chaque nouvelle section
 \usepackage{epigraph}
 \usepackage[font={small}]{caption}
+\usepackage{makeidx}
+\makeindex
 \usepackage[francais,nohints]{minitoc}		% Mini table des matières, en français
 	\setcounter{minitocdepth}{3}	% Mini-toc détaillées (sections/sous-sections)
 %\usepackage[notbib]{tocbibind}		% Ajoute les Tables	des Matières/Figures/Tableaux à la table des matières
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -164,3 +169,6 @@
 {\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
 \titlespacing*{\paragraph}
 {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
+\setlength{\parskip}{1.4ex}
+
