@@ -16,7 +16,13 @@ clean:
 	rm -f *.toc *.lof *.lot
 	rm -f *.thm *.out
 	rm -f *.ind *.idx *.ilg
+	rm -f */*.aux */*.log */*.dvi */$(latexfile).ps */*.bak */$(latexfile).ps.gz */$(latexfile).ps.bz2
+	rm -f */*.bbl */*.blg
+	rm -f */*.toc */*.lof */*.lot
+	rm -f */*.thm */*.out
+	rm -f */*.ind */*.idx */*.ilg
  
+
 $(latexfile).aux : $(latexfile).tex
 	$(TEX) $(latexfile)
 

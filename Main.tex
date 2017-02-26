@@ -60,10 +60,10 @@
 	\pagenumbering{roman}
 	\pagedegarde
 	\cleardoublepage
-		% Table des matières
-			\setcounter{tocdepth}{2}	% Pas besoin de trop détailler le sommaire ici (chapitres/sections)
-			\dominitoc						% Génération des mini-toc	\pagenumbering{arabic}
-			\tableofcontents
+	% Table des matières
+	\setcounter{tocdepth}{2}	% Pas besoin de trop détailler le sommaire ici (chapitres/sections)
+	\dominitoc						% G�n�ration des mini-toc	\pagenumbering{arabic}
+	\tableofcontents
 		% Liste des figures
 			%\renewcommand*\listfigurename{Liste des figures}
 			%\listoffigures
@@ -85,15 +85,15 @@
 	
 	
 	% Annexes
-	\begin{appendix}
-		\pagenumbering{Roman}
-		\includefrom{Annexes/}{Annexes}				% Figures en annexe
+	%\begin{appendix}
+	%	\pagenumbering{Roman}
+	%	\includefrom{Annexes/}{Annexes}				% Figures en annexe
 			
 		% Liste des acronymes, glossaire et liste des symboles (dans l'ordre)		
 		%\printglossary[type=\acronymtype , title={Liste des acronymes}, toctitle={Liste des acronymes}]
 		%\printglossary[title=Glossaire,toctitle=Glossaire]
 		%\printglossary[type=notation,title={Liste des symboles}, toctitle={Liste des symboles}]
 	
-	\end{appendix}
+	%\end{appendix}
 
 \end{document}
